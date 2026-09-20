@@ -1,5 +1,20 @@
 ## [Unreleased]
 
+- 新增：AdminApi 会员昵称搜索接口
+- 新增：AdminApi 会员 random_by 接口（支持 bizGroup、username、nickname 字段查询）
+- 新增：实现 MemberStatProvider，向 Analysis 分析统计接口提供用户注册与留存数据
+
+- 新增：余额充值/VIP 开通订单历史数据自动回填 memberUserId（pay_order 统一付费事实源）
+
+- 新增：模块资源目录增加 .nvmrc（Node 14）规范构建环境
+
+- 优化：后台创建用户和重置密码不再受用户名最小长度和密码强度限制
+- 修复：会员数据访客上传接口（ueditor_guest）增加 SSRF 与 SVG 存储型 XSS 防护
+
+---
+
+## 5.2.2 会员头像接口SSRF防护
+
 - 优化：注册页面登录链接支持 dialog 参数传递
 - 优化：充值支付通知标题显示优化
 - 修复：会员头像接口增加 SSRF 防护，拒绝通过 URL 方式抓取内网/保留地址
