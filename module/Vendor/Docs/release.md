@@ -1,3 +1,9 @@
+## [Unreleased]
+
+- 修复：phpQuery 与 BladeTailwindInject 命令在 PHP 8 下的兼容问题（create_function 移除、花括号字符串偏移、split 移除、Process 需数组参数）
+
+---
+
 ## 5.4.1 邮件框架深色模式适配与页脚提示可覆盖
 
 - 优化：邮件框架新增 `prefers-color-scheme` 深色模式适配与 `color-scheme` 声明，深色客户端下卡片、正文、表格、页脚自动反色

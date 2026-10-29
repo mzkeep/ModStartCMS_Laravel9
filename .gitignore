@@ -17,3 +17,5 @@ yarn-error.log
 .DS_Store
 deploy-web.txt
 /DESIGN.md
+/_temp/
+/.workbuddy/
