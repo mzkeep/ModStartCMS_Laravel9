@@ -7,7 +7,8 @@
     "modstartVersion": ">=6.0.0",
     "env": [
         "laravel5",
-        "laravel9"
+        "laravel9",
+        "laravel13"
     ],
     "types": [
         "Arch"

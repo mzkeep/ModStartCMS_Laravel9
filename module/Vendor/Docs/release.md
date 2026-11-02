@@ -1,6 +1,10 @@
 ## [Unreleased]
 
 - 修复：phpQuery 与 BladeTailwindInject 命令在 PHP 8 下的兼容问题（create_function 移除、花括号字符串偏移、split 移除、Process 需数组参数）
+- 新增：支持 Laravel 13 / PHP 8.5，config.json 环境声明新增 laravel13
+- 修复：PHP 8.1 起将 null 隐式转为字符串已废弃，请求头取值统一经 strval()
+- 修复：字符串插值 ${var} 写法在 PHP 8.2 起废弃，统一改为 {$var}
+- 修复：PHP 8.4 起 fgetcsv()/fputcsv() 要求显式传入 $escape 参数
 
 ---
 

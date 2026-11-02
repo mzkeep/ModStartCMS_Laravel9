@@ -1,6 +1,7 @@
-## [Unreleased]
+## 5.5.0 用户协议隐私协议与账号申诉支持文件维护，支持 Laravel 13 / PHP 8.5
 
 - 新增：用户使用协议、用户隐私协议、账号申诉支持 `public/theme/Member/{Agreement,Privacy,Appeal}.md` 文件维护（格式为「# 标题」+「---」+ 正文 Markdown），文件存在且正文非空时优先使用文件标题与内容，否则使用后台配置；前台页面 `/member/agreement`、`/member/privacy`、`/member/appeal` 与接口 `/api/member_doc/get` 同步生效
+- 新增：支持 Laravel 13 / PHP 8.5，config.json 环境声明新增 laravel13
 
 ---
 

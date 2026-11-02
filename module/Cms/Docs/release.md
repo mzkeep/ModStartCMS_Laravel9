@@ -4,6 +4,7 @@
 - 新增：新增主题演示数据导入工具 CmsThemeDemoUtil，可按模块导入 Backup/init_data.json
 - 优化：数据库恢复的临时表名增加随机后缀，避免同一秒内连续恢复冲突
 - 优化：测试种子统一为单文件 module/Cms/Test/Seed.php
+- 新增：支持 Laravel 13 / PHP 8.5，config.json 环境声明新增 laravel13
 
 ---
 

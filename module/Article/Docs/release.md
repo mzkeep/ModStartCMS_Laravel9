@@ -1,3 +1,9 @@
+## [Unreleased]
+
+- 新增：支持 Laravel 13 / PHP 8.5，config.json 环境声明新增 laravel13
+
+---
+
 ## 1.7.0 新增模块 README 集成说明，测试种子统一为单文件
 
 - 新增：模块 README 集成说明（module/Article/README.md，其他系统集成先读此文件）
